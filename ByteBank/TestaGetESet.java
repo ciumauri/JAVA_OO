@@ -3,12 +3,6 @@ public class TestaGetESet {
   public static void main(String[] args) {
     //instacinando uma nova conta
     Conta conta1 = new Conta(111, 123456);
-    Conta conta2 = new Conta(112, 123456);
-    Conta conta3 = new Conta(113, 123456);
-    Conta conta4 = new Conta(114, 123456);
-    Conta conta5 = new Conta(111, 123456);
-    Conta conta6 = new Conta(111, 123456);
-    System.out.println("O número de contas abertas é: " + Conta.getTotal());
     //Inseção de saldo da conta com metódo Set
     conta1.setSaldo(500);
     //consulta do saldo através do método Get
