@@ -1,7 +1,7 @@
 public class TesteFuncionario {
 
   public static void main(String[] args) {
-    Funcionario mauricio = new Funcionario();
+    Funcionario mauricio = new Gerente();
     mauricio.setNome("Mauricio Oliveira");
     mauricio.setMatricula("1515456");
     mauricio.setSalario(1500);
